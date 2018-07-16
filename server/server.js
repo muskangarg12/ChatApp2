@@ -55,7 +55,6 @@ io.on('connection', function(socket){
 			//emit to everyone
 			io.to(user.room).emit('newMessage', generateMessage(user.name, message.text));
 		}
-		
 		callback();
 	});
 

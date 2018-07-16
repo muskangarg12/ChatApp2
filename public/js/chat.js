@@ -70,7 +70,7 @@ socket.on('newLocationMessage', function(message){
 	var formattedTime = moment(message.createdAt).format('h:mm a');
 	var template = jQuery('#locationMessage-template').html();
 	var html = Mustache.render(template, {
-		text: message.text,
+		from: message.from,
 		url: message.url,
 		createdAt: formattedTime
 	});
