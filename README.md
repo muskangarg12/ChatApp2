@@ -2,7 +2,7 @@
 
 This is a Socket.io based chat app with multiple rooms represented as groups. this app also allows you to share your location with your friends implemented using google API .
 
- Use this app live at [ link ]( realchatapp.herokuapp.com )
+ Use this app live at [ realchatapp.herokuapp.com ]( http://realchatapp.herokuapp.com )
 
 ## To use this app: 
 
